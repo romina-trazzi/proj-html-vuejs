@@ -34,20 +34,19 @@
                         </div>
 
                         <div class="second_third d_flex">    
-                            <span d_flex>
+                            <span class="d_flex">
                                 <span> <i class="fas fas fa-phone-alt"> </i> {{ phone }} </span>
-                                <span> <i class="fas fa-envelope"></i> {{ email }} </span>
+                                <span> <i class="fas fa-envelope"> </i> <a href ="mailto:"> {{ email }} </a></span>
                             </span>     
                         </div>
 
                         <div class ="third_third d_flex">
                             <span class="d_flex">
-                                <i class="fab fa-facebook-f"></i>
+                                <i class="fab fa-facebook-f" v-on:click="facebook"></i>
                                 <i class="fab fa-twitter"></i>
                                 <i class="fab fa-linkedin-in"></i>
                             </span>
                         </div>
-
 
                     </div>
                 </header>

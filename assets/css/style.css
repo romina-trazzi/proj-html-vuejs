@@ -65,6 +65,34 @@ header .fas::before, header .fab::before {
     padding-right: 5px;
 }
 
+.second_third a:nth-child(2) {
+    color: #C0C3D0;
+    text-decoration: none;
+}
+
+
+.fa-envelope:hover, .second_third a:nth-child(2):hover  {
+    color: darkorange;  
+}
+
+.fa-facebook-f:hover { 
+    color: #3b5998;
+    cursor: pointer;
+}
+
+.fa-twitter:hover { 
+    color: #1da1f2;
+    cursor: pointer;
+}
+
+.fa-linkedin-in:hover {
+    color:#0e76a8;
+    cursor: pointer;
+}
+
+
+
+
 
 /*=====  End of Section Header ======*/
 
