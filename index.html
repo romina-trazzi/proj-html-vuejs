@@ -30,7 +30,7 @@
                         <!-- Prima parte header (orario) -->
                         <div class="first_third d_flex"> 
                             <span> 
-                                <i class="fas fa-clock"></i> {{ hours }} 
+                                <i class="fas fa-clock"></i> {{ top_nav.hours }} 
                             </span> 
                         </div>
                         <!-- / Prima parte header (orario) -->
@@ -38,8 +38,8 @@
                         <!-- Seconda parte header (telefono + email) -->
                         <div class="second_third d_flex">    
                             <span class="d_flex">
-                                <span> <i class="fas fas fa-phone-alt"> </i> {{ phone }} </span>
-                                <span> <i class="fas fa-envelope"> </i> <a href ="mailto:"> {{ email }} </a></span>
+                                <span> <i class="fas fas fa-phone-alt"> </i> {{ top_nav.phone }} </span>
+                                <span>  <a href ="mailto:"> <i class="fas fa-envelope"></i> {{ top_nav.email }} </a></span>
                             </span>     
                         </div>
                         <!-- / Seconda parte header (telefono + email) -->
@@ -47,37 +47,57 @@
                         <!-- Terza parte header (social) -->
                         <div class ="third_third d_flex">
                             <span class="d_flex">
-                                <a href="https://www.facebook.com"><i class="fab fa-facebook-f" v-on:click="facebook"></i></a>
+                                <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
                                 <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
                                 <a href="https://www.linkedin.com"><i class="fab fa-linkedin-in"></i></a>
                             </span>
                         </div>
                         <!-- Terza parte header (social) -->
                     </div>
+
+
                 </header>
                 <!-- / Header -->
 
 
                 <!-- Main -->
                 <main>
-                    <section> 
-                        <div class = "jumbotron">
-                            <div class="navbar">
+                    <section>
+                        <div class="position d_flex">
 
-                            </div>
+                            <div class = "jumbotron d_flex">
 
-                            <div class="central_message">
+                                <!-- Navbar bottom -->
+                                <div class="navbar d_flex">
+                                   <div class="left d_flex">
+                                        <div>
+                                            <span id="nex">NEX</span>
+                                            <span> GEN</span>
+                                        </div>
+                                    </div>
+                                    <div class="right d_flex">
+                                        <div v-for="item in bottom_nav">
+                                            <span> {{ item }} </span>
+                                        </div> 
+                                        <span id="touch">GET IN TOUCH</span>
+                                    </div> 
+                                </div>
+                                <!-- / Navbar bottom -->
 
-                            </div>
+                                <div class="central_message">
 
-                            <div class="buttons">
+                                </div>
 
+                                <div class="buttons">
+
+                                </div>
                             </div>
                         </div>
-
-
                     </section>
 
+                    
+                    
+                    
                     <section>
 
                     </section>

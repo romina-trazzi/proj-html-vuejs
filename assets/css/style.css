@@ -4,9 +4,9 @@
     padding: 0;
 }
 
-.container {  /* dimensione desktop */
+.container {  /* dimensione screenshot Figma (1080px dimensione desktop) */
     width: 1920px;
-    height: 1080px;
+    height: 7445px;
 }
 
 /*=============================================
@@ -31,8 +31,10 @@ header {
     height: 50px;
     background-color: #24333d;
     color: #C0C3D0;
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", "sans-serif";
     font-size: 15px;
+    position: relative;
+    z-index: 1;
 }
 
 .my_header {
@@ -103,14 +105,75 @@ header .fas::before, header .fab::before {
 =            Section Jumbotron            =
 =============================================*/
 
+main {
+    height: calc(7445px - 710px - 50px);
+}
+
+.position {
+    background-color: black;
+    height: 860px;
+    width: 100%;
+    filter: brightness(40%);
+    -webkit-filter: brightness(40%);
+}
+
 .jumbotron {
     background-image: url('../img/hero-image.png');
     background-size: cover;
-    height: 860px;
-    width: 100%;
-    filter: brightness(30%);
-    -webkit-filter: brightness(30%);
+    background-position: bottom;
+    width: 100%;  
 }
+
+/*----------  Subsection Navbar  ----------*/
+
+.navbar {
+    height: 70px;
+    width: 100%;
+    font-family: "Roboto", "sans-serif";
+    font-size: 20px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    letter-spacing: 2px;
+}
+
+.left {
+    width: 27%;
+    justify-content: flex-end;
+    align-items: center;
+}
+   
+.right {
+    width: 53%;
+    justify-content: end;
+    align-items: center;
+}
+
+.right span {
+    cursor: pointer;
+    padding-left: 16px;
+}
+
+.right span:hover {
+    color: darkorange;
+}
+
+#nex {
+    color: #39c4c6;
+}
+
+#touch {
+    background-color: #39c4c6;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    padding: 10px 16px;
+    margin-left: 16px;
+}
+
+/*----------  End of Subsection Navbar  ----------*/
+
 
 /*=====  End of Section Jumbotron  ======*/
 
