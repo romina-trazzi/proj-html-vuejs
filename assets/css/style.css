@@ -17,6 +17,12 @@
     display: flex;
 }
 
+a:link, a:visited {
+    text-decoration: none;
+    color: #C0C3D0;
+    background-color: transparent;
+}
+
 /*=============================================
     =            Section Header           =
 =============================================*/
@@ -89,8 +95,6 @@ header .fas::before, header .fab::before {
     color:#0e76a8;
     cursor: pointer;
 }
-
-
 
 
 
