@@ -96,7 +96,21 @@ header .fas::before, header .fab::before {
     cursor: pointer;
 }
 
-
-
 /*=====  End of Section Header ======*/
+
+
+/*=============================================
+=            Section Jumbotron            =
+=============================================*/
+
+.jumbotron {
+    background-image: url('../img/hero-image.png');
+    background-size: cover;
+    height: 860px;
+    width: 100%;
+    filter: brightness(30%);
+    -webkit-filter: brightness(30%);
+}
+
+/*=====  End of Section Jumbotron  ======*/
 
