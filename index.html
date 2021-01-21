@@ -179,27 +179,43 @@
                                     
                                     <!-- Tasks -->
                                     <div class="duty d_flex" v-once="task in tasks">
-                                        <div class="duties d_flex">
-                                            <div class="task_box">
-                                                <div class="task_image d_flex"> <img src="assets/img/key_icon0.png"> </div>
-                                                <div class ="task_title"> {{ tasks[0].first_task.task_title }} </div>
-                                                <div class="task_message"> {{ tasks[0].first_task.task_message }} </div>
+                                        <div class="duty_container d_flex">
+
+                                            <div class="duty_first_row d_flex">
+                                                <div class="task_box">
+                                                    <div class="task_image d_flex"> 
+                                                        <span><img src="assets/img/network_icon0.png"></span> 
+                                                        <span class ="task_title"> {{ tasks[0].first_task.task_title }} </span> 
+                                                    </div>
+                                                    <div class="task_message"> {{ tasks[0].first_task.task_message }} </div>
+                                                </div>
+                                                <div class="task_box">
+                                                    <div class="task_image d_flex"> 
+                                                        <span><img src="assets/img/network_icon1.png"></span>
+                                                        <span class ="task_title"> {{ tasks[1].second_task.task_title }} </span>
+                                                    </div>
+                                                    <div class="task_message"> {{ tasks[1].second_task.task_message }} </div>
+                                                </div>
                                             </div>
-                                            <div class="task_box">
-                                                <div class="task_image d_flex"> <img src="assets/img/key_icon0.png"> </div>
-                                                <div class ="task_title"> {{ tasks[1].second_task.task_title }} </div>
-                                                <div class="task_message"> {{ tasks[1].second_task.task_message }} </div>
+
+                                            <div class="duty_second_row d_flex">
+                                                <div class="task_box">
+                                                    <div class="task_image d_flex"> 
+                                                        <span><img src="assets/img/network_icon2.png"></span> 
+                                                        <span class ="task_title"> {{ tasks[2].third_task.task_title }} </span>
+                                                    </div>
+                                                    <div class="task_message"> {{ tasks[2].third_task.task_message }} </div>
+                                                </div>
+                                                <div class="task_box">
+                                                    <div class="task_image d_flex"> 
+                                                        <span><img src="assets/img/network_icon3.png"></span> 
+                                                        <span class ="task_title"> {{ tasks[3].fourth_task.task_title }} </span>
+                                                    </div>
+                                                    <div class="task_message"> {{ tasks[3].fourth_task.task_message }} </div>
+                                                </div> 
                                             </div>
-                                            <div class="task_box">
-                                                <div class="task_image d_flex"> <img src="assets/img/key_icon0.png"> </div>
-                                                <div class ="task_title"> {{ tasks[2].third_task.task_title }} </div>
-                                                <div class="task_message"> {{ tasks[2].third_task.task_message }} </div>
-                                            </div>
-                                            <div class="task_box">
-                                                <div class="task_image d_flex"> <img src="assets/img/key_icon0.png"> </div>
-                                                <div class ="task_title"> {{ tasks[3].fourth_task.task_title }} </div>
-                                                <div class="task_message"> {{ tasks[3].fourth_task.task_message }} </div>
-                                            </div> 
+
+
                                         </div>
                                     </div>
                                     <!-- / Tasks -->
@@ -232,6 +248,7 @@
                     <section>
 
                     </section>
+                    
                 </main>
                 <!-- / Main -->
 

@@ -376,6 +376,18 @@ main {
 
 /*----------  Subsection Tasks  ----------*/
 
+.duty_container {
+    flex-direction: column;
+}
+
+.task_title {
+    font-family: "Arial Black";
+    font-size: 15px;
+    font-weight: 900;
+    color: #1e2223;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
 
 /*----------  End of Subsection Tasks  ----------*/
 
