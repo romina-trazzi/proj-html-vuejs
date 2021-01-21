@@ -367,8 +367,6 @@ main {
 }
 
 .company_message {
-    font-family: "Arial";
-    font-size: 12px;
     color: #1e2223;
 }
 
@@ -380,6 +378,10 @@ main {
     flex-direction: column;
 }
 
+.task_image {
+    align-items: center;
+}
+
 .task_title {
     font-family: "Arial Black";
     font-size: 15px;
@@ -387,6 +389,14 @@ main {
     color: #1e2223;
     margin-top: 20px;
     margin-bottom: 30px;
+}
+
+.company_message, .task_message {
+    font-family: Arial;
+    font-size: 15px;
+    color: #778a94;
+    word-spacing: 15%;
+    letter-spacing: 1px;
 }
 
 /*----------  End of Subsection Tasks  ----------*/
