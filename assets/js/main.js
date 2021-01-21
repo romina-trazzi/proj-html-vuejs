@@ -14,8 +14,13 @@ let app = new Vue ({
             "PRICING", 
             "BLOG",
         ],
-    
-    },
+
+        central_message: {
+            first_row: "Successful strategies require data analysis, creativity and customer focus, taking",
+            second_row: "advantage of the latest technologies to offer excellent services."
+        }
+
+        },
     
 })
     
