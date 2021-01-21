@@ -18,9 +18,35 @@ let app = new Vue ({
         central_message: {
             first_row: "Successful strategies require data analysis, creativity and customer focus, taking",
             second_row: "advantage of the latest technologies to offer excellent services."
-        }
-
         },
+
+        cards: [
+            {
+                first_card: {
+                    card_icon: "Da fare",
+                    card_title: "Human Capital",
+                    card_message: "Human business Harness the power of technology to improve the way people work"
+                },
+
+            },
+            {
+                second_card: {
+                    card_icon: "Da fare",
+                    card_title: "Core Business",
+                    card_message: "It takes innovative approaches to transform, modernize, and run existing platforms"
+                },
+            },
+            {
+                third_card: {
+                    card_icon: "Da fare",
+                    card_title: "Perfomance",
+                    card_message: "Achieving maximum impact and value from investments in finance and supply chain"
+                }
+            }
+        ]
+
+        
+    },
     
 })
     

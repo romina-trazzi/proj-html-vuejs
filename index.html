@@ -62,6 +62,8 @@
 
                 <!-- Main -->
                 <main>
+
+                    <!-- Prima sezione (navbar + messaggio centrale)-->
                     <section>
                         <div class="position d_flex">
 
@@ -113,13 +115,35 @@
                             </div>
                         </div>
                     </section>
+                    <!-- / Prima sezione (navbar + messaggio centrale)-->
 
-                    
-                    
-                    
+                    <!-- Seconda sezione (Key values cards)-->
                     <section>
+                        <div class="sand d_flex">
+
+                            <div class="card d_flex" v-once="card in cards">
+                               <div class="key_values d_flex">
+                                    <div> <img> {{ cards[0].first_card.card_icon }} </div>
+                                    <div class ="card_title"> {{ cards[0].first_card.card_title }} </div>
+                                    <div> {{ cards[0].first_card.card_message }} </div>
+                               </div>
+                               <div class="key_values d_flex">
+                                    <div> <img> {{ cards[1].second_card.card_icon }} </div>
+                                    <div class="card_title"> {{ cards[1].second_card.card_title }} </div>
+                                    <div> {{ cards[1].second_card.card_message }} </div>
+                                </div>
+                                <div class="key_values d_flex">
+                                    <div> <img> {{ cards[2].third_card.card_icon }} </div>
+                                    <div class="card_title"> {{ cards[2].third_card.card_title }} </div>
+                                    <div> {{ cards[2].third_card.card_message }} </div>
+                               </div>
+                            
+                            </div>
+
+                        </div>
 
                     </section>
+                    <!-- / Seconda sezione (Key values cards)-->
 
                     <section>
 
