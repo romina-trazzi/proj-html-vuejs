@@ -378,6 +378,10 @@ main {
     flex-direction: column;
 }
 
+.duty_first_row {
+    margin-bottom: 50px;
+}
+
 .task_image {
     align-items: center;
 }
@@ -387,8 +391,7 @@ main {
     font-size: 15px;
     font-weight: 900;
     color: #1e2223;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    margin: 20px 10px 20px 10px;
 }
 
 .company_message, .task_message {
@@ -399,6 +402,9 @@ main {
     letter-spacing: 1px;
 }
 
+.task_message {
+    margin-bottom: 10px;
+}
 /*----------  End of Subsection Tasks  ----------*/
 
 
