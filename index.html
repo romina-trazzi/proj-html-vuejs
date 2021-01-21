@@ -123,21 +123,26 @@
 
                             <div class="card d_flex" v-once="card in cards">
                                <div class="key_values d_flex">
-                                    <div> <img> {{ cards[0].first_card.card_icon }} </div>
-                                    <div class ="card_title"> {{ cards[0].first_card.card_title }} </div>
-                                    <div> {{ cards[0].first_card.card_message }} </div>
+                                    <div class="card_box">
+                                        <div class="card_image"> <img src="assets/img/key_icon0.jpg"></div>
+                                        <div class ="card_title"> {{ cards[0].first_card.card_title }} </div>
+                                        <div class="card_message"> {{ cards[0].first_card.card_message }} </div>
+                                    </div>
                                </div>
                                <div class="key_values d_flex">
-                                    <div> <img> {{ cards[1].second_card.card_icon }} </div>
-                                    <div class="card_title"> {{ cards[1].second_card.card_title }} </div>
-                                    <div> {{ cards[1].second_card.card_message }} </div>
+                                    <div class="card_box">
+                                        <div class="card_image"> <img src="assets/img/key_icon1.jpg"> </div>
+                                        <div class="card_title"> {{ cards[1].second_card.card_title }} </div>
+                                        <div class="card_message"> {{ cards[1].second_card.card_message }} </div>
+                                    </div>
                                 </div>
                                 <div class="key_values d_flex">
-                                    <div> <img> {{ cards[2].third_card.card_icon }} </div>
-                                    <div class="card_title"> {{ cards[2].third_card.card_title }} </div>
-                                    <div> {{ cards[2].third_card.card_message }} </div>
-                               </div>
-                            
+                                    <div class="card_box">
+                                        <div class="card_image"> <img src="assets/img/key_icon2.jpg"> </div>
+                                        <div class="card_title"> {{ cards[2].third_card.card_title }} </div>
+                                        <div class="card_message"> {{ cards[2].third_card.card_message }} </div>
+                                    </div>
+                                </div>
                             </div>
 
                         </div>

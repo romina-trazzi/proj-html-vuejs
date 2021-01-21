@@ -25,7 +25,7 @@ let app = new Vue ({
                 first_card: {
                     card_icon: "Da fare",
                     card_title: "Human Capital",
-                    card_message: "Human business Harness the power of technology to improve the way people work"
+                    card_message: "Humanizing business: Harness the power of technology to improve the way people work"
                 },
 
             },
