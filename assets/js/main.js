@@ -23,7 +23,6 @@ let app = new Vue ({
         cards: [
             {
                 first_card: {
-                    card_icon: "Da fare",
                     card_title: "Human Capital",
                     card_message: "Humanizing business: Harness the power of technology to improve the way people work."
                 },
@@ -31,19 +30,47 @@ let app = new Vue ({
             },
             {
                 second_card: {
-                    card_icon: "Da fare",
                     card_title: "Core Business",
                     card_message: "It takes innovative approaches to transform, modernize, and run existing platforms."
                 },
             },
             {
                 third_card: {
-                    card_icon: "Da fare",
                     card_title: "Perfomance",
                     card_message: "Achieving maximum impact and value from investments in finance and supply chain."
                 }
             }
-        ]
+        ],
+
+        tasks: [
+            {
+                first_task: {
+                    task_title: "Tradition",
+                    task_message: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+                },
+            },
+            {
+                second_task: {
+                    task_title: "Security",
+                    task_message: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+                },
+            },
+            {
+                third_task: {
+                    task_title: "Certificate",
+                    task_message: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+                },
+            },
+            {
+                fourth_task: {
+                    task_title: "Expertise",
+                    task_message: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+                }
+            }
+            
+        ],
+
+
 
         
     },

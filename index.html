@@ -153,19 +153,69 @@
                                     </div>
                                 </div>
                                 <!-- / Third Card -->
-                            
-                            
+                        
                             </div>
                             <!-- / Cards -->
 
                         </div>
-
                     </section>
                     <!-- / Seconda sezione (Key values cards)-->
 
                     <section>
 
                     </section>
+                        <div class="company d_flex">
+                            <div class="about d_flex">
+                               
+                                <div class="company_void">            
+                                </div>
+
+                                <div class="company_full d_flex">
+                                    <div class="data_company d_flex">
+                                        <span class="about_network"> ABOUT THE NETWORK</span>
+                                        <div class= "network_title"> <span class="company_article"> The </span> <span class="company_title">Company</span></div>
+                                        <span class="company_message"> For 12 years we have been providing audit and warranty, financial <br> advice, risk advice, taxes and related services to select clients.</span>
+                                    </div>
+                                    
+                                    <!-- Tasks -->
+                                    <div class="duty d_flex" v-once="task in tasks">
+                                        <div class="duties d_flex">
+                                            <div class="task_box">
+                                                <div class="task_image d_flex"> <img src="assets/img/key_icon0.png"> </div>
+                                                <div class ="task_title"> {{ tasks[0].first_task.task_title }} </div>
+                                                <div class="task_message"> {{ tasks[0].first_task.task_message }} </div>
+                                            </div>
+                                            <div class="task_box">
+                                                <div class="task_image d_flex"> <img src="assets/img/key_icon0.png"> </div>
+                                                <div class ="task_title"> {{ tasks[1].second_task.task_title }} </div>
+                                                <div class="task_message"> {{ tasks[1].second_task.task_message }} </div>
+                                            </div>
+                                            <div class="task_box">
+                                                <div class="task_image d_flex"> <img src="assets/img/key_icon0.png"> </div>
+                                                <div class ="task_title"> {{ tasks[2].third_task.task_title }} </div>
+                                                <div class="task_message"> {{ tasks[2].third_task.task_message }} </div>
+                                            </div>
+                                            <div class="task_box">
+                                                <div class="task_image d_flex"> <img src="assets/img/key_icon0.png"> </div>
+                                                <div class ="task_title"> {{ tasks[3].fourth_task.task_title }} </div>
+                                                <div class="task_message"> {{ tasks[3].fourth_task.task_message }} </div>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                    <!-- / Tasks -->
+                                </div>
+                            </div>
+
+                            <div class="work_coffee">
+                                <img src="assets/img/about.jpg">
+                            </div>
+
+
+                        </div>
+
+                        </div>
+
+
 
                     <section>
 
@@ -200,3 +250,7 @@
         <!-- / JS + Vue development version, includes helpful console warnings -->
     </body>
 </html>
+
+
+
+                                         

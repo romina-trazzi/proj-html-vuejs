@@ -296,12 +296,88 @@ main {
     font-size: 15px;
     font-weight: 500;
     color: #778a96;
-    
-    
 }
 /*=====  End of Section Key values  ======*/
 
 
+/*=============================================
+=            Section Network           =
+=============================================*/
+
+.company {
+    width: 100%;
+    height: 815px;
+    background-color: white;
+}
+
+.about {
+    width: 50%;
+    height: 100%;
+}
+
+.company_void {
+    width: 41%;
+} 
+
+.company_full {
+    width: 59%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.work_coffee {
+    width: 50%;
+}
+
+.work_coffee img {
+    height: 100%;
+    width: 100%;
+}
+
+/*----------  Subsection Data company  ----------*/
+
+.data_company {
+    flex-direction: column;
+    margin-bottom: 75px;
+}
+
+.about_network {
+    font-family: "Arial Black";
+    font-size: 12px;
+    color: #058283;
+    margin-bottom: 40px;
+}
+
+.company_article, .company_title {
+    font-family: "Arial Black";
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.company_article {
+    color: #038483;
+}
+
+.company_title {
+    color: #1e2223;
+}
+
+.network_title {
+    margin-bottom: 40px;
+}
+
+.company_message {
+    font-family: "Arial";
+    font-size: 12px;
+    color: #1e2223;
+}
+
+/*----------  End Subsection Data company  ----------*/
+
+/*----------  Subsection Tasks  ----------*/
+
+
+/*----------  End of Subsection Tasks  ----------*/
 
 
 
