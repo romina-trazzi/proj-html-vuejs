@@ -272,7 +272,7 @@ main {
 }
 
 .card_box {
-    width: 62%;
+    width: 61%;
     align-self: center;
 }
 
@@ -281,13 +281,14 @@ main {
     font-size: 15px;
     font-weight: 900;
     color: #1e2223;
-    margin-top: 10px;
-    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 .card_image {
-   width: 80px;
-   height: 80px; 
+   width: 65px;
+   height: 65px; 
+   justify-content: end;
 }
 
 .card_message {
