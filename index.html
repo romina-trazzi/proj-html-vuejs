@@ -121,21 +121,30 @@
                     <section>
                         <div class="sand d_flex">
 
+                            <!-- Cards -->
                             <div class="card d_flex" v-once="card in cards">
-                               <div class="key_values d_flex">
+                               
+                                <!-- First Card -->
+                                <div class="key_values d_flex">
                                     <div class="card_box">
                                         <div class="card_image"> <img src="assets/img/key_icon0.jpg"></div>
                                         <div class ="card_title"> {{ cards[0].first_card.card_title }} </div>
                                         <div class="card_message"> {{ cards[0].first_card.card_message }} </div>
                                     </div>
-                               </div>
-                               <div class="key_values d_flex">
+                                </div>
+                                <!-- / First Card -->
+
+                                <!-- Second Card -->
+                                <div class="key_values d_flex">
                                     <div class="card_box">
                                         <div class="card_image"> <img src="assets/img/key_icon1.jpg"> </div>
                                         <div class="card_title"> {{ cards[1].second_card.card_title }} </div>
                                         <div class="card_message"> {{ cards[1].second_card.card_message }} </div>
                                     </div>
                                 </div>
+                                <!-- / Second Card -->
+
+                                <!-- Third Card -->
                                 <div class="key_values d_flex">
                                     <div class="card_box">
                                         <div class="card_image"> <img src="assets/img/key_icon2.jpg"> </div>
@@ -143,7 +152,11 @@
                                         <div class="card_message"> {{ cards[2].third_card.card_message }} </div>
                                     </div>
                                 </div>
+                                <!-- / Third Card -->
+                            
+                            
                             </div>
+                            <!-- / Cards -->
 
                         </div>
 
