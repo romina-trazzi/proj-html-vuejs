@@ -245,21 +245,72 @@
                     <!-- Quarta sezione (Services' cards)-->
                     <section>
 
-                        <div class="black_area">
+                        <div class="black_area d_flex">
 
-                            <div class="void">
-
+                            <div class="pro_void">
                             </div>
-                            
-                            <div class="excellence">
+
+                            <div class="excellence d_flex">
+                               
+                                <!-- Area business areas-->
                                 <span class="business_areas"> OUR BUSINESS AREAS</span>
                                 <span class="company_title white">Excellence in Services</span>
-                                <div class="sub_excellence">
+                                <div class="sub_excellence d_flex">
                                     <span class="company_message light_grey"> We are leaders in providing consultancy services with a set of cutting-edge technologies and a team of <br> experienced and renowed professionals. These are some option you can hire.</span>
-                                    <div class="see_all d_flex"><span id="see">SEE ALL</span></div>
+                                    <span class="see_all"><span id="see">SEE ALL</span></span>
                                 </div>
+                                <!-- Area business areas-->
+
+                                <!-- Area Professional cards -->
+                                <div class="professional d_flex" v-once="service in services">
+                                    <div class="pro_container d_flex">
                                 
-                            </div>
+                                    <!-- Professional Service prima riga-->
+                                    <div class="pro_first_row d_flex">
+                                        
+                                        <div class="pro_box">
+                                            <div class="pro_image d_flex"> 
+                                                <span><img src="assets/img/network_icon0.png"></span> 
+                                                <span class ="pro_title white"> {{ services[0].first_service.service_title }} </span> 
+                                            </div>
+                                            <div class="pro_message light_grey"> {{ services[0].first_service.service_message }} </div>
+                                        </div>
+                                
+                                        <div class="pro_box">
+                                            <div class="task_image d_flex"> 
+                                                <span><img src="assets/img/network_icon1.png"></span>
+                                                <span class ="pro_title white"> {{ services[1].second_service.service_title }} </span>
+                                            </div>
+                                            <div class="pro_message light_grey"> {{ services[1].second_service.service_message }} </div>
+                                        </div>
+                                
+                                        <div class="pro_box">
+                                            <div class="task_image d_flex"> 
+                                                <span><img src="assets/img/network_icon1.png"></span>
+                                                <span class ="pro_title white"> {{ services[2].third_service.service_title }} </span>
+                                            </div>
+                                            <div class="pro_message light_grey"> {{ services[2].third_service.service_message }} </div>
+                                        </div>
+                                
+                                
+                                    </div>
+                                    <!-- / Professional Service prima riga -->
+                                
+
+
+                            </div
+
+                              
+
+                                
+                            
+
+                        
+                            
+                             
+                            
+
+                                    
                             
                         </div>
                     </section>

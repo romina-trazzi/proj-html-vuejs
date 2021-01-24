@@ -70,6 +70,49 @@ let app = new Vue ({
             
         ],
 
+        services: [
+            {
+                first_service: {
+                    service_title: "Audit & Assurance",
+                    service_message: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+                },
+            },
+            {
+                second_service: {
+                    service_title: "Financial Advisory",
+                    service_message: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+                },
+            },
+            {
+                third_service: {
+                    service_title: "Analytics and M&A",
+                    service_message: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+                },
+            },
+            {
+                fourth_service: {
+                    service_title: "Middle Marketing",
+                    service_message: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+                }
+            },
+
+            {
+                fifth_service: {
+                    service_title: "Legal Consulting",
+                    service_message: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+                }
+            },
+
+            {
+                fourth_service: {
+                    service_title: "Regulatory Risk",
+                    service_message: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+                }
+            }
+            
+
+        ],
+
 
 
         
